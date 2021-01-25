@@ -20,7 +20,13 @@ namespace GoLogs.Interfaces
         ///     The BL date for this delivery order.
         /// </summary>
         DateTime BlDate { get; }
-        string DoOrderNumber { get; }
+        /// <summary>
+        /// The DO Order Number 
+        /// </summary>
+        string DOOrderNumber { get; }
+        /// <summary>
+        /// Cargo Owner Id who request DO Order
+        /// </summary>
         int CargoOwnerId { get;  }
     }
 }
