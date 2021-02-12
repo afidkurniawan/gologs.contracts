@@ -1,5 +1,4 @@
-// ReSharper disable CheckNamespace
-namespace GoLogs.Interfaces
+﻿namespace GoLogs.Interfaces
 {
     public interface IPerson : IEntity
     {
@@ -7,7 +6,7 @@ namespace GoLogs.Interfaces
         ///     Person's e-mail address.
         /// </summary>
         string Email { get; }
-        
+
         /// <summary>
         ///     Person's first name.
         /// </summary>
@@ -22,7 +21,7 @@ namespace GoLogs.Interfaces
         ///     Nomor pokok wajib pajak. Unformatted.
         /// </summary>
         string Npwp { get; }
-        
+
         int? CompanyId { get; }
         int? CompanyRoleId { get; }
     }

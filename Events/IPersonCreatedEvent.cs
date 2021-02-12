@@ -1,8 +1,7 @@
-// ReSharper disable CheckNamespace
-namespace GoLogs.Events
+﻿namespace GoLogs.Events
 {
     public interface IPersonCreatedEvent : IPersonEvent
     {
-        
+
     }
 }

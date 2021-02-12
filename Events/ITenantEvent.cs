@@ -1,6 +1,5 @@
-using GoLogs.Interfaces;
+﻿using GoLogs.Interfaces;
 
-// ReSharper disable CheckNamespace
 namespace GoLogs.Events
 {
     public interface ITenantEvent

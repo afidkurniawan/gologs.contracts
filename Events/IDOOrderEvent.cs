@@ -1,6 +1,5 @@
-using GoLogs.Interfaces;
+﻿using GoLogs.Interfaces;
 
-// ReSharper disable CheckNamespace
 // ReSharper disable InconsistentNaming
 namespace GoLogs.Events
 {

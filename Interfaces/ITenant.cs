@@ -1,5 +1,4 @@
-// ReSharper disable CheckNamespace
-namespace GoLogs.Interfaces
+﻿namespace GoLogs.Interfaces
 {
     public interface ITenant : IEntity
     {

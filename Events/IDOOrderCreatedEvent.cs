@@ -1,9 +1,8 @@
-// ReSharper disable CheckNamespace
-// ReSharper disable InconsistentNaming
+﻿// ReSharper disable InconsistentNaming
 namespace GoLogs.Events
 {
     public interface IDOOrderCreatedEvent : IDOOrderEvent
     {
-        
+
     }
 }

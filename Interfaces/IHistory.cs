@@ -1,10 +1,9 @@
-﻿using System;
-
-namespace GoLogs.Interfaces
+﻿namespace GoLogs.Interfaces
 {
-    public interface IHistory :IEntity
+    public interface IHistory : IEntity
     {
-        string DOOrderNumber { get;  }
+        // ReSharper disable once InconsistentNaming
+        string DOOrderNumber { get; }
         int StateId { get; }
     }
 }
