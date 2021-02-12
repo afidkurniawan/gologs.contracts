@@ -4,21 +4,15 @@ using System;
 namespace GoLogs.Interfaces
 {
     // ReSharper disable once InconsistentNaming
-    public interface IDOOrder : IEntity
+    public interface IDOOrder :  IEntity
     {
         /// <summary>
         ///     Universally unique identifier of this <see cref="IDOOrder"/>.
-        /// </summary>
-        Guid? Uuid { get; }
         
+        string DOOrderNumber { get; }
         /// <summary>
-        ///     The BL number for this delivery order.
+        /// Cargo Owner Id who request DO Order
         /// </summary>
-        string BlNumber { get; }
-        
-        /// <summary>
-        ///     The BL date for this delivery order.
-        /// </summary>
-        DateTime BlDate { get; }
+        int CargoOwnerId { get;  }
     }
 }
